@@ -1,3 +1,5 @@
+import ImageDisplay from "./components/ImageDisplay";
+
 const App = () => {
   return (
     <div className="container">
@@ -16,7 +18,7 @@ const App = () => {
       </form>
       <div className="row">
         <div className="container-gif offset-1 col-6">
-          <img src="" alt="" className="gif" />
+          <ImageDisplay />
         </div>
       </div>
       <div className="row">
