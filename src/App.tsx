@@ -1,4 +1,5 @@
-import ImageDisplay from "./components/ImageDisplay";
+import ErrorDisplay from "./components/ErrorDisplay/ErrorDisplay";
+import ImageDisplay from "./components/ImageDisplay/ImageDisplay";
 
 const App = () => {
   return (
@@ -22,9 +23,7 @@ const App = () => {
         </div>
       </div>
       <div className="row">
-        <p className="error text-danger col">
-          Error: I couldn't retrieve anything funny
-        </p>
+        <ErrorDisplay />
       </div>
     </div>
   );
